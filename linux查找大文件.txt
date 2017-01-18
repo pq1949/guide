@@ -1,0 +1,1 @@
+find / -type f -size +100000k | xargs ls -lh | awk '{ print $9 ": " $5 }'

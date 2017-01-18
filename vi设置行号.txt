@@ -1,0 +1,1 @@
+可以使用 :set nonumber 命令关闭行号。还可以使用这个命令和 :set number 命令的简写，即 :set nu 和 :set nonu。

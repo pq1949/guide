@@ -1,0 +1,2 @@
+SELECT * FROM thop_mgm.tbl_opmgm_ins_base order by recUpdTs desc;
+SELECT * FROM thop_mgm.tbl_opmgm_ins_base where insIdCd='666666';

@@ -1,0 +1,8 @@
+
+ls -ilrt 确定节点号
+
+删除乱码文件
+find inum 323247 -delete
+
+删除乱码文件夹	
+find . -inum 323247 -print  -exec rm {} -rf \;

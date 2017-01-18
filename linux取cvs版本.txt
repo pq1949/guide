@@ -1,0 +1,17 @@
+设置环境变量
+export CVSROOT=:pserver:qianpei@172.17.249.63/cvsnew2
+
+登录
+cvs login
+
+检出版本
+cvs co th_ips
+
+更新
+cvs up -d
+
+检出更新
+cvs up -A
+
+打标签
+cvs tag tagName

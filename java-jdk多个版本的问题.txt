@@ -1,0 +1,1 @@
+安装多个java版本的时候，当需要更换jdk的版本的时候，只用更改一下JAVA_HOME的路径即可，但是在安装了64位的1.8的jdk后，更改好运行java -version 总是1.8的jdk，改不回来了。这个问题可以在C:\ProgramData\Oracle\Java中把javapath文件夹的名字换一下就可以了，比如javapath-backup

@@ -1,0 +1,23 @@
+1）登陆CVS服务器:
+
+　　cvs -d :pserver:username@host:/$CVSROOT  login
+
+然后系统会提示你输入密码。或直接使用：
+
+　　cvs -d :pserver:user:pwd@host:/CVS login
+
+2) checkout:
+
+　　cvs -d :pserver:host:/CVSROOT checkout projectName
+
+3) 如果想省略上面的-d以及服务目录，执行：
+
+　　export CVSROOT=:pserver:user@host:/cvsroot
+
+4) update:
+
+　　cvs update
+
+　　cvs update -C (override and update)
+
+5) cvs status: 显示当前文件的更新状态.
