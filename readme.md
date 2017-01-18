@@ -1,7 +1,7 @@
 ### Git global setup
 ```
-git config --global user.name "裴谦"
-git config --global user.email "qianpei@sysnew.com"
+git config --global user.name "pq1949"
+git config --global user.email "2305220598@qq.com"
 ```
 检查你的设置(Checking Your Settings)
 如果你想检查你的设置，你可以使用 git config --list 命令来列出Git可以在该处找到的所有的设置: 
@@ -14,13 +14,13 @@ git init
 touch README
 git add README
 git commit -m 'first commit'
-git remote add origin git@172.17.249.122:qianpei/sigtest.git
+git remote add origin git@17.17.29.12:pq1949/sigtest.git
 git push -u origin master
 ```
 ### Existing Git Repo?
 ```
 cd existing_git_repo
-git remote add origin git@172.17.249.122:qianpei/sigtest.git
+git remote add origin git@17.17.29.12:pq1949/sigtest.git
 git push -u origin master
 ```
 
@@ -31,8 +31,8 @@ git push -u origin master
 如果是远端服务器上的仓库，你的命令会是这个样子：
 ```
 git clone username@host:/path/to/repository
-git clone git@172.17.249.122:qianpei/sigtest.git
-git clone http://172.17.249.122/qianpei/sigtest.git
+git clone git@17.17.29.12:pq1949/sigtest.git
+git clone http://1.1.1.1/pq1949/sigtest.git
 ```
 
 ### add and commit 
